@@ -1,0 +1,117 @@
+// html{
+//   background-image: url('../../assets/6c224f4a20a44623a2e9598681bcdc000df3d764.jpeg');
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }
+// Home.scss
+.home-container {
+  padding: 24px;
+  margin-top: 20px;
+  margin-left: 200px;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+
+  .floating-button {
+    position: fixed;
+    top: 100px;
+    right: 100px;
+    z-index: 1000;
+    
+    .ant-btn-circle {
+      box-shadow: 0 4px 12px rgba(24, 144, 255, 0.4);
+    }
+  }
+
+  .error-alert {
+    margin-bottom: 24px;
+    padding: 12px;
+    background: #fff1f0;
+    border: 1px solid #ffccc7;
+    border-radius: 4px;
+    color: #ff4d4f;
+  }
+
+  .management-card {
+    background: white;
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+
+    .card-title {
+      color: #1890ff;
+      font-size: 20px;
+      margin-bottom: 24px;
+      font-weight: 600;
+    }
+  }
+
+  .upload-section {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+
+    .upload-button, .submit-button {
+      height: 40px;
+      padding: 0 20px;
+      border-radius: 8px;
+      font-weight: 500;
+    }
+  }
+
+  .empty-state {
+    text-align: center;
+    padding: 40px 0;
+    
+    img {
+      width: 200px;
+      margin-bottom: 16px;
+    }
+    
+    p {
+      color: #999;
+      font-size: 14px;
+    }
+  }
+
+  .ad-table {
+    .media-preview {
+      img, video {
+        width: 180px;
+        height: 120px;
+        object-fit: cover;
+        border-radius: 4px;
+        background: #f0f0f0;
+      }
+    }
+    
+    .ant-table {
+      border-radius: 8px;
+      overflow: hidden;
+    }
+  }
+
+  .announcement-modal {
+    .ant-modal-content {
+      border-radius: 12px;
+    }
+
+    .announcement-textarea {
+      border-radius: 8px;
+      padding: 16px;
+      resize: vertical;
+    }
+
+    .modal-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 24px;
+
+      .error-text {
+        color: #ff4d4f;
+        font-size: 12px;
+      }
+    }
+  }
+}

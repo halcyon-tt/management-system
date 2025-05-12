@@ -1,0 +1,57 @@
+.logo {
+  height: 32px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 25px;
+  color: #1890ff;
+}
+
+.ant-layout-sider {
+  box-shadow: 2px 0 8px 0 rgba(0, 0, 0, 0.1);
+  width: 200px !important;
+  min-width: 200px !important;
+  max-width: 200px !important;
+  height: 100vh;
+  background-color: #fff;
+  position: fixed;
+  left: 0; 
+  top: 0; 
+  z-index: 100; 
+}
+
+.ant-layout-header {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+  padding: 0 16px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background: #fff;
+  width: calc(100% - 200px); 
+  height: 64px; 
+  position: fixed; 
+  top: 0; 
+  left: 200px;
+  z-index: 1000; 
+}
+
+.ant-layout-content {
+  padding: 24px;
+  background: #fff;
+  min-height: 100vh; 
+  margin-left: 200px; 
+  margin-top: 64px; 
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  padding: 0 16px;
+  overflow: hidden;
+}
+
+.logo img {
+  height: 40px; // 设置图片高度
+  width: auto;  // 保持图片比例
+}
